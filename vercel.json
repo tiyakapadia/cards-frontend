@@ -2,7 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://cards-backend-y28g.onrender.com/api/:path*"
+      "destination": "https://cards-backend-1.onrender.com/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
